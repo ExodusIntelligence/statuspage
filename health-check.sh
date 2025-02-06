@@ -63,5 +63,6 @@ then
   git config --global user.email 'autobot@exodusintel.com'
   git add -A --force logs/
   git commit -am '[Automated] Update Health Check Logs'
+  git pull
   git push
 fi
